@@ -59,6 +59,10 @@ examples (errors and curves).
 
 #### Adapting NN Regressor - K (5,10,20) - Step Size: 0.01
 
+<img width="130" src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/nn_K5.png">
+<img width="130" src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/nn_K10.png">
+<img width="130" src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/nn_K20.png">
+
 #### Adapting MAML - K (5,10,20)
 
 #### Comparing NNR with MAML - K (10) - Step Size: 0.01
