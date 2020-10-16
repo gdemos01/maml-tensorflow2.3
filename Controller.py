@@ -146,7 +146,7 @@ if __name__ == '__main__':
         load_weights = True if args.load_weights else False
         train_size = int(args.train_size) if args.train_size else 70000
         K = int(args.K) if args.K else 10
-        a = int(args.alpha) if args.alpha else 0.01
+        a = float(args.alpha) if args.alpha else 0.01
 
         print("> Parameters: K=", K, " train_size=", train_size," model_name=", model_name,
               " load_weights=", load_weights," alpha=",a)
@@ -180,7 +180,7 @@ if __name__ == '__main__':
         model_name = args.maml_model_name if args.maml_model_name else "default_maml"
         load_weights = True if args.load_weights else False
         K = int(args.K) if args.K else 10
-        a = int(args.alpha) if args.alpha else 0.01
+        a = float(args.alpha) if args.alpha else 0.01
 
         print("> Parameters: K=", K," model_name=", model_name, " load_weights=", load_weights, " alpha=", a)
 
@@ -204,7 +204,7 @@ if __name__ == '__main__':
         maml_model_name = args.maml_model_name if args.maml_model_name else "default_maml"
         load_weights = True if args.load_weights else False
         K = int(args.K) if args.K else 10
-        a = int(args.alpha) if args.alpha else 0.01
+        a = float(args.alpha) if args.alpha else 0.01
         print("> Parameters: K=", K, " maml_model_name=", maml_model_name," nn_model_name=",nn_model_name,
               " step_size=",step_size," load_weights=", load_weights, " alpha=", a)
 
