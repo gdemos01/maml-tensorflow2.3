@@ -57,14 +57,25 @@ examples (errors and curves).
 
 ## Results
 
-#### Adapting NN Regressor - K (5,10,20) - Step Size: 0.01
+### Adapting NN Regressor - K (5,10,20) - Step Size: 0.01
 
-<img width="130" src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/nn_K5.png">
-<img width="130" src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/nn_K10.png">
-<img width="130" src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/nn_K20.png">
+<img src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/nn_K5.png">
+<img src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/nn_K10.png">
+<img src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/nn_K20.png">
 
-#### Adapting MAML - K (5,10,20)
+### Adapting MAML - K (5,10,20)
 
-#### Comparing NNR with MAML - K (10) - Step Size: 0.01
+<img src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/maml_K5.png">
+<img src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/maml_K10.png">
+<img src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/maml_K20.png">
 
-#### Comparing NNR with MAML - K (10) - Step Size: 0.02
+
+### Comparing NNR with MAML - K (10) - Step Size: 0.01
+
+<img src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/comparison_0.01_error.png">
+<img src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/comparison_0.01_curve.png">
+
+### Comparing NNR with MAML - K (10) - Step Size: 0.02
+
+<img src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/comparison_0.02_error.png">
+<img src="https://github.com/gdemos01/maml-tensorflow2.3/blob/main/Results/comparison_0.02_curve.png">
